@@ -11,9 +11,10 @@ namespace PracticeUng
         static void Main(string[] args)
         {
             /*
-             * 
+             
             Console.WriteLine("Test");
 
+            https://blog.hexabrain.net/98
 
             Ctrl + S: 현재 파일 저장
             Ctrl + C: 복사
