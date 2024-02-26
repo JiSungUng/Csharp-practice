@@ -14,7 +14,7 @@ namespace PracticeUng
              
             Console.WriteLine("Test");
 
-            https://blog.hexabrain.net/135
+            https://blog.hexabrain.net/136
 
             Ctrl + S: 현재 파일 저장
             Ctrl + C: 복사
@@ -115,15 +115,38 @@ namespace PracticeUng
             Console.WriteLine("지금까지 입력된 수를 모두 더합니다: " + sum);
 
             Console.WriteLine("{0}", Division(40, 10));
+            
+             out 키워드는 ref 키워드와 비슷하게 인수를 참조로 전달할때 사용됩니다. 그러나 차이점이 존재합니다. out 키워드를 사용하면 변수를 전달하기전 
+            초기화해야하는 ref 키워드와는 달리 초기화 하지 않고도 전달이 가능합니다. 
+            int a;
+
+            Add(out a);
+            Console.WriteLine("a={0}", a);
+            Console.WriteLine("sum={0}", total(20, 10, 40, 4, 7, 6, 44, 55, 2));
+            Console.WriteLine("sum={0}", total(30, 4, 5));
+
              */
-
-
 
         }
 
         static int Division(int a, int b)
         {
             return a / b;
+        }
+
+        static void Add(out int a)
+        {
+            a = 100;
+        }
+
+        static int total(params int[] list) //길이제한 없이 매개변수 보내려면 params
+        {
+            int sum = 0;
+
+            for (int i = 0; i < list.Length; i++)
+                sum += list[i];
+
+            return sum;
         }
 
     }
