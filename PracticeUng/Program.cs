@@ -129,6 +129,7 @@ namespace PracticeUng
 
         }
 
+        //메서드
         static int Division(int a, int b)
         {
             return a / b;
