@@ -14,7 +14,7 @@ namespace PracticeUng
              
             Console.WriteLine("Test");
 
-            https://blog.hexabrain.net/136
+            https://blog.hexabrain.net/135
 
             Ctrl + S: 현재 파일 저장
             Ctrl + C: 복사
