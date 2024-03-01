@@ -14,7 +14,7 @@ namespace PracticeUng
              
             Console.WriteLine("Test");
 
-            https://blog.hexabrain.net/135
+            https://blog.hexabrain.net/141
 
             Ctrl + S: 현재 파일 저장
             Ctrl + C: 복사
@@ -125,12 +125,12 @@ namespace PracticeUng
             Console.WriteLine("sum={0}", total(20, 10, 40, 4, 7, 6, 44, 55, 2));
             Console.WriteLine("sum={0}", total(30, 4, 5));
 
-             */
             int[,] reading = new int[3, 6] { { 4, 9, 1, 0, 21, 12 }, { 1, 4, 6, 0, 9, 5 }, { 4, 4, 2, 4, 0, 0 } };  //2 차원 배열.
 
-            for (int i = 0; i < reading.GetLength(0); i++)
+            for (int i = 0; i < reading.GetLength(0); i++)  //getLength 메서드는 차원의 요소 수를 반환하는 메서드
                 for (int j = 0; j < reading.GetLength(1); j++)
                     Console.WriteLine("reading[" + i + ", " + j + "] = {0}", reading[i, j]);
+             */
 
         }
 
