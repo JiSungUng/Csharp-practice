@@ -11,7 +11,6 @@ namespace PracticeUng
         static void Main(string[] args)
         {
             /*
-             
             Console.WriteLine("Test");
 
             https://blog.hexabrain.net/141
